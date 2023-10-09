@@ -16,7 +16,8 @@ export const Amouttrackcard = ({
     <div
       className={`w-full  md:w-[32%] min-w-[270px] h-${height} rounded-lg flex flex-col justify-between bg-${bgcolor} `}
     >
-      <div className="mx-5 mt-4 flex flex-col space-y-3 ">
+      <div className="text-[#146EB4]"></div>
+      <div className="mx-5 mt-4 flex flex-col space-y-3  ">
         <div className="flex space-x-2 items-center">
           <p className={`text-${textcolor}`}>{name}</p>
           {questionicon}
