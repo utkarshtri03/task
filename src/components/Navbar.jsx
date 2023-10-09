@@ -3,7 +3,7 @@ import { Navicon1, Navicon2, Navicon3, Searchicon } from "../assets/images";
 
 const Navbar = () => {
   return (
-    <div className="w-[100%] h-[64px] bg-white flex px-[2%] space-x-[4%] items-center border-b border-[#D9D9D9] ">
+    <div className="w-[100%] h-[64px] bg-[#FFFFFF] flex px-[2%] space-x-[4%] items-center border-b border-[#D9D9D9] ">
       <div className="flex w-[29.6%] space-x-[5%] ">
         <h3 className="text-[20px]">Payouts</h3>
         <div className="flex items-center space-x-2 ">

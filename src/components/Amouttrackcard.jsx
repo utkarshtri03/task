@@ -5,7 +5,7 @@ export const Amouttrackcard = ({
   amount,
   display,
   height,
-  bgcolor,
+  bcolor,
   displaybottom,
   textcolor,
   ordercolor,
@@ -14,9 +14,8 @@ export const Amouttrackcard = ({
 }) => {
   return (
     <div
-      className={`w-full  md:w-[32%] min-w-[270px] h-${height} rounded-lg flex flex-col justify-between bg-${bgcolor} `}
+      className={`w-full  md:w-[32%] min-w-[270px] h-${height} rounded-lg flex flex-col justify-between bg-[${bcolor}] `}
     >
-      <div className="text-[#146EB4]"></div>
       <div className="mx-5 mt-4 flex flex-col space-y-3  ">
         <div className="flex space-x-2 items-center">
           <p className={`text-${textcolor}`}>{name}</p>
