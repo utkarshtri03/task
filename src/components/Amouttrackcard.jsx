@@ -1,4 +1,3 @@
-// Amouttrackcard.js
 import React from "react";
 
 export const Amouttrackcard = ({
