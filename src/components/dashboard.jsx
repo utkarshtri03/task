@@ -48,7 +48,9 @@ const Dashboard = () => {
             <img src="logo.png" alt="" width="39px" height="39px" />
           </div>
           <div className="ml-[4%]">
-            <div className=" text-white  text-sm mt-[1%] ">Nishyan</div>
+            <div className=" text-white  text-sm mt-[1%] font-galano-grotesque  ">
+              Nishyan
+            </div>
             <div className="text-gray-300 text-sm underline">Visit Store</div>
           </div>
           <div className="md:ml-[20%] ml-2">

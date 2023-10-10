@@ -1,3 +1,9 @@
+/* @import url("https://fonts.cdnfonts.com/css/galano-grotesque-alt"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Galano Grotesque Alt", sans-serif;
+}
