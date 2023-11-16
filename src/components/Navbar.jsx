@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="w-[100%] h-[64px] bg-[#FFFFFF] flex px-[2%] space-x-[4%] items-center border-b border-[#D9D9D9] ">
       <div className="flex w-[29.6%] space-x-[5%] items-center ">
-        <h3 className="text-[20px] font-medium text-xl pb-1 ">Payouts</h3>
+        <h3 className="text-[20px] font-semibold text-xl pb-1 ">Payouts</h3>
         <div className="flex items-center space-x-2  ">
           <Navicon1 />
           <p className="text-[#4D4D4D] text-[12px] hidden sm:block pb-1 ">
@@ -17,7 +17,7 @@ const Navbar = () => {
         <Searchicon />
         <input
           className="text-[#808080] pb-1 w-[60%] sm:w-full sm:block outline-none bg-transparent caret-opacity-100"
-          placeholder="Search feature tutorial etc."
+          placeholder="Search features, tutorials, etc."
         />
       </div>
 
