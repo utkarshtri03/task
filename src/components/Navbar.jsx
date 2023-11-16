@@ -4,8 +4,8 @@ import { Navicon1, Navicon2, Navicon3, Searchicon } from "../assets/images";
 const Navbar = () => {
   return (
     <div className="w-[100%] h-[64px] bg-[#FFFFFF] flex px-[2%] space-x-[4%] items-center border-b border-[#D9D9D9] ">
-      <div className="flex w-[29.6%] space-x-[5%] items-center ">
-        <h3 className="text-[20px] font-semibold text-xl pb-1 ">Payouts</h3>
+      <div className="flex w-[29.6%] space-x-[5%] items-center md:ml-3 ">
+        <h3 className="text-[#1A181E]  font-semibold text-lg pb-1 ">Payouts</h3>
         <div className="flex items-center space-x-2  ">
           <Navicon1 />
           <p className="text-[#4D4D4D] text-[12px] hidden sm:block pb-1 ">

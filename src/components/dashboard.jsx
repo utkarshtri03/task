@@ -44,14 +44,20 @@ const Dashboard = () => {
     <div className="bg-[#1E2640] w-full  md:w-[224px]  md:h-screen  flex flex-col justify-between">
       <div>
         <div className="flex items-center ml-2 md:ml-[8%] md:mt-[5%] ">
-          <div>
-            <img src="logo.png" alt="" width="39px" height="39px" />
+          <div className="rounded-lg">
+            <img
+              src="logo.png"
+              alt=""
+              width="39px"
+              height="39px"
+              className="rounded-lg"
+            />
           </div>
           <div className="ml-[4%]">
             <div className=" text-white  text-sm mt-[1%] ">Nishyan</div>
             <div className="text-gray-300 text-sm underline">Visit Store</div>
           </div>
-          <div className="md:ml-[20%] ml-2">
+          <div className=" ml-5 mr-2">
             <Dropdown />
           </div>
           <div className="md:hidden ml-auto mr-4">
@@ -87,7 +93,7 @@ const Dashboard = () => {
           </div>
           <div>
             <p className="text-[14px] text-gray-300">Available Credits</p>
-            <p className="text-[16px] text-[#FFFFFF] ">222.10</p>
+            <p className="text-[16px] text-[#FFFFFF] pb-1 ">222.10</p>
           </div>
         </div>
       )}

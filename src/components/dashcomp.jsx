@@ -3,7 +3,7 @@ import React from "react";
 const Dashcomp = ({ compo, name, bgcolor }) => {
   return (
     <div
-      className={`flex space-x-[13px] mt-1 bg-${bgcolor} py-[2px] pl-3 rounded-lg items-center h-[30px] `}
+      className={`flex space-x-[13px] mt-1 bg-${bgcolor} py-[2px] pl-3 rounded-lg items-center h-[30px] hover:bg-[#353C53] cursor-pointer transition-colors`}
     >
       <div>{compo}</div>
       <div className="text-gray-300">{name}</div>
