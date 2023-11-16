@@ -18,6 +18,7 @@ const Amounts = () => {
         ht="h-36"
         displaybottom="block"
         textcolor="white"
+        maintextcolor="white"
         ordercolor="#FFFFFF"
         arrowicon={<RightArrow />}
         questionicon={<Questionmark />}
@@ -30,7 +31,8 @@ const Amounts = () => {
         bcolor="#FFFFFF"
         ht="h-28"
         displaybottom="hidden"
-        textcolor="#4D4D4D"
+        textcolor="[#4D4D4D]"
+        maintextcolor="[#1A181E]"
         ordercolor="#146EB4"
         arrowicon={<RightArrowBlue />}
         questionicon={<Navicon1 />}
@@ -43,7 +45,8 @@ const Amounts = () => {
         bcolor="#FFFFFF"
         ht="h-28"
         displaybottom="hidden"
-        textcolor="#4D4D4D"
+        textcolor="[#4D4D4D]"
+        maintextcolor="[#1A181E]"
         questionicon={<Navicon1 />}
       />
     </div>

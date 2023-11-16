@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Galano Grotesque"; /* Corrected font family name */
+  src: url("/fonts/GalanoGrotesque.otf");
+}
+
 body {
-  font-family: "Galano Grotesque", sans-serif;
+  font-family: "Galano Grotesque", sans-serif; /* Use the correct font family name here */
 }
