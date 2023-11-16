@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Galano Grotesque"; /* Corrected font family name */
+  font-family: "Galano Grotesque";
   src: url("/fonts/GalanoGrotesque.otf");
 }
 
 body {
-  font-family: "Galano Grotesque", sans-serif; /* Use the correct font family name here */
+  font-family: "Galano Grotesque", sans-serif;
 }

@@ -40,19 +40,19 @@ const Table = () => {
               <td className="text-left pl-4 min-w-[100px] w-1/5 text-[#146EB4] font-semibold  ">
                 #{order.orderId}
               </td>
-              <td className="text-left w-1/5 flex items-center space-x-2 mt-[8px]  min-w-[100px] ">
-                <div>
+              <td className="text-left w-1/5 flex items-center space-x-2 mt-[8px]  min-w-[130px] ">
+                <div className="pt-1 ">
                   <Dotsignal status={order.status} />
                 </div>
-                <p className="text-[#1A181E]">{order.status}</p>
+                <p className="text-[#1A181E]   ">{order.status}</p>
               </td>
-              <td className="text-left w-1/5 text-[#4D4D4D]  min-w-[100px] ">
+              <td className="text-left w-1/5 text-[#4D4D4D]  min-w-[130px] ">
                 {order.transactionId}
               </td>
-              <td className="text-left w-1/5 text-[#4D4D4D]  min-w-[100px] ">
+              <td className="text-left w-1/5 text-[#4D4D4D]  min-w-[130px] ">
                 {order.refundDate}
               </td>
-              <td className="text-right pr-4 w-1/5 text-[#1A181E]  min-w-[100px] ">
+              <td className="text-right pr-4 w-1/5 text-[#1A181E]  min-w-[130px] ">
                 {order.orderAmount}
               </td>
             </tr>
