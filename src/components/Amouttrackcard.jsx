@@ -43,10 +43,10 @@ export const Amouttrackcard = ({
       <div
         className={`bg-[#0E4F82] w-full h-[40px] rounded-lg flex justify-between items-center px-5 ${displaybottom}`}
       >
-        <p className="text-[#F2F2F2] md:text-xs lg:text-sm ">
+        <p className="text-[#F2F2F2]  text-xs  sm:text-md md:text-sm ">
           Next Payout Date:
         </p>
-        <p className="text-[#F2F2F2] md:text-xs lg:text-sm  ">
+        <p className="text-[#F2F2F2] text-xs sm:text-md md:text-sm  ">
           Today, 04:00 PM
         </p>
       </div>
